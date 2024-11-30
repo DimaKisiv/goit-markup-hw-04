@@ -191,6 +191,12 @@ img {
   color: var(--color-secondary);
 }
 
+.address-menu-item {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Top Banner */
 .top-banner {
   background-color: var(--color-primary);
@@ -330,6 +336,13 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.contact-icons-container .icon-social:hover
+.contact-icons-container .icon-social:focus {
+  background-color: #404bbf;
+  
+}
+
 /* our Portfolio */
 
 .our-portfolio .container {
@@ -441,9 +454,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-social:hover,
-.icon-social:focus {
-  background-color: #404bbf;
+.footer-icons-container .icon-social:hover,
+.footer-icons-container .icon-social:focus {
+  background-color: #31d0aa;
   fill: #f4f4fd;
 }
 
