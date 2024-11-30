@@ -136,6 +136,9 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-item.active {
@@ -194,11 +197,11 @@ img {
   padding: 188px 0;
   max-width: 1440px;
   margin: auto;
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images//people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images//people-office.jpg");
 }
 
 .top-banner .container {
@@ -347,6 +350,9 @@ img {
 }
 
 .portfolio-first {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .image-overlay-wrapper {
@@ -408,7 +414,7 @@ img {
 .footer-cocial-title {
   margin-bottom: 16px;
   font-weight: 500;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .footer-icons-container {
@@ -436,8 +442,12 @@ img {
 }
 
 .icon-social:hover,
-.icon-social:hover {
-  background-color: #31d0aa;
+.icon-social:focus {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+}
+
+.icon-social-svg {
   fill: #f4f4fd;
 }
 
