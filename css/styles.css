@@ -5,6 +5,7 @@
   --color-accent: #4d5ae5;
   --color-light: #f4f4fd;
   --color-white: #ffffff;
+  --icon-color: #f4f4fd;
 }
 
 /*#region Normalization */
@@ -184,17 +185,14 @@ img {
 }
 .address-item {
   color: currentColor;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:hover,
 .address-item:focus {
   color: var(--color-secondary);
-}
-
-.address-menu-item {
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Top Banner */
@@ -457,11 +455,11 @@ img {
 .footer-icons-container .icon-social:hover,
 .footer-icons-container .icon-social:focus {
   background-color: #31d0aa;
-  fill: #f4f4fd;
+  fill: var(--icon-color);
 }
 
 .icon-social-svg {
-  fill: #f4f4fd;
+  fill: var(--icon-color);
 }
 
 .visually-hidden {
