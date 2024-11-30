@@ -335,10 +335,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-icons-container .icon-social:hover
-.contact-icons-container .icon-social:focus {
+.contacts-icon-social:hover
+.contacts-.icon-social:focus {
   background-color: #404bbf;
-  
 }
 
 /* our Portfolio */
@@ -452,10 +451,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-container .icon-social:hover,
-.footer-icons-container .icon-social:focus {
+.footer-icon-social:hover {
   background-color: #31d0aa;
-  fill: var(--icon-color);
+}
+
+.footer-icon-social:focus {
+  background-color: #31d0aa; 
 }
 
 .icon-social-svg {
