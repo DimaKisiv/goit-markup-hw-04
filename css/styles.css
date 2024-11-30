@@ -343,6 +343,10 @@ img {
   background-color: #404bbf;
 }
 
+.contacts-icon-social:active {
+  background-color: #404bbf;
+}
+
 /* our Portfolio */
 
 .our-portfolio .container {
@@ -459,6 +463,10 @@ img {
 }
 
 .footer-icon-social:focus {
+  background-color: #31d0aa; 
+}
+
+.footer-icon-social:active {
   background-color: #31d0aa; 
 }
 
